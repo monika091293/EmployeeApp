@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92251F6C285F852D00AC4933 /* EmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA5118285EEEAF00661528 /* EmployeeData.swift */; };
 		929B8FE9285EF4FC00E8F3B1 /* LIstTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B8FE8285EF4FB00E8F3B1 /* LIstTVCell.swift */; };
 		929B8FEC285F52F300E8F3B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B8FEB285F52F300E8F3B1 /* DetailViewController.swift */; };
 		929B8FEE285F6C2E00E8F3B1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B8FED285F6C2E00E8F3B1 /* ListViewController.swift */; };
@@ -57,6 +58,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92251F6B285F851900AC4933 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92CA5118285EEEAF00661528 /* EmployeeData.swift */,
+				92CA510E285EDC9F00661528 /* Address.swift */,
+				92CA5110285EDCA200661528 /* Company.swift */,
+				92CA5114285EDCAA00661528 /* Geo.swift */,
+				92CA5112285EDCA700661528 /* Employees.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		92251F6D285F854B00AC4933 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				929B8FE8285EF4FB00E8F3B1 /* LIstTVCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		92CA50E2285ED2F400661528 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +100,8 @@
 				92CA50EE285ED2F400661528 /* AppDelegate.swift */,
 				92CA50F0285ED2F400661528 /* SceneDelegate.swift */,
 				92CA5116285EEE6800661528 /* CoreDataStack.swift */,
-				92CA5118285EEEAF00661528 /* EmployeeData.swift */,
-				92CA510E285EDC9F00661528 /* Address.swift */,
-				92CA5110285EDCA200661528 /* Company.swift */,
-				92CA5114285EDCAA00661528 /* Geo.swift */,
-				92CA5112285EDCA700661528 /* Employees.swift */,
-				929B8FE8285EF4FB00E8F3B1 /* LIstTVCell.swift */,
+				92251F6B285F851900AC4933 /* Model */,
+				92251F6D285F854B00AC4933 /* Cell */,
 				92CA5107285ED8D500661528 /* Helpers */,
 				92CA5105285ED89000661528 /* ViewControllers */,
 				92CA50F4285ED2F400661528 /* Main.storyboard */,
@@ -195,6 +212,7 @@
 				92CA50F1285ED2F400661528 /* SceneDelegate.swift in Sources */,
 				929B8FE9285EF4FC00E8F3B1 /* LIstTVCell.swift in Sources */,
 				92CA5109285ED8FA00661528 /* APIService.swift in Sources */,
+				92251F6C285F852D00AC4933 /* EmployeeData.swift in Sources */,
 				929B8FEE285F6C2E00E8F3B1 /* ListViewController.swift in Sources */,
 				92CA5115285EDCAA00661528 /* Geo.swift in Sources */,
 			);
