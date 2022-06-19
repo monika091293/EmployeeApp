@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  SampleCoredata
+//  EmployeeApp
 //
 //  Created by Monika Mohan on 19/06/22.
 //
